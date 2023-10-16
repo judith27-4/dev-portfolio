@@ -49,7 +49,7 @@ color:rgb(26, 42, 3);
       font-size: 24px;
 }
 .content-container{
-padding:160px 20px;
+padding:100px 20px;
 }
 
 .content h1{
@@ -98,30 +98,31 @@ padding:160px 20px;
     max-width: 150px;
 
 }
-nav{
-    padding:20px 0;
+.active{
+    color: var(--branding-color) !important;;
+}
+.nav{
+    padding:20px;
 }
 nav ul{
     padding:0;
     margin:0;
 }
-
 nav li{
     display: inline;
     list-style: none;
-    line-height: 40px;
+    line-height: 42px;
     margin-left: 15px;
 }
 nav a {
     text-decoration: none;
-    color:#0b0b0b;
+    color:#070706;
     transition: all 100ms ease-in-out;
 }
-
-nav a:hover, nav li.active a{
+nav a:hover,
+nav li.active a{
     color:var(--branding-color);
 }
-
 @media (max-width:900px){
     h1{
         font-size: 60px;
